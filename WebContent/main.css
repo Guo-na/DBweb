@@ -1,0 +1,46 @@
+@charset "UTF-8";
+*{margin: 0px; padding: 0px;}
+.header{
+	width:100%;
+	height:100px;
+	background-color:#003262;
+	display: flex;
+	flex-direction:row;
+}
+.img{
+	padding-top:15px;
+	padding-left:150px;
+}
+.nav{
+	 width:700px;
+	 display: flex;
+	 flex-direction:row;
+	 justify-content:space-between;
+	 color:white;
+	 padding-top:60px;
+	 padding-left:50px;
+	 
+}
+/* a{
+	text-decoration:none;
+	color:white;
+	
+} */
+a:link { color: white; text-decoration: none; }/* 未访问的链接 */
+    a:visited { color: #fff; text-decoration: none; } /* 已访问的链接 */
+    a:hover { color: #808080; text-decoration: none; }/* 鼠标移动到链接上 */
+    a:active { color: #fff; text-decoration: none; } /* 选定的链接 */
+    
+.container{
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	
+}
+.inputQuery{
+	position: absolute;
+	
+}
+.trOne{
+	height:50px;
+}
